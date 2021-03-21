@@ -1,6 +1,6 @@
 # hello-gcp
 
-This is me testing Google Cloud Functions.
+This is me testing Google Cloud Functions by greeting my sweethearts!
 
 Below are the deployed functions URLs:
 
