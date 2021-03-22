@@ -37,6 +37,17 @@ steps:
       - gcloud
       - functions
       - deploy
+      - HelloNaheemah
+      - --source=.
+      - --trigger-http
+      - --runtime=go113
+      - --allow-unauthenticated
+
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    args:
+      - gcloud
+      - functions
+      - deploy
       - HelloGbenga
       - --source=.
       - --trigger-http
@@ -48,7 +59,7 @@ steps:
       - gcloud
       - functions
       - deploy
-      - HelloNaheemah
+      - HelloRidwan
       - --source=.
       - --trigger-http
       - --runtime=go113
