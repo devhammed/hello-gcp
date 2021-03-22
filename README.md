@@ -8,3 +8,4 @@ Below are the deployed functions URLs:
 - [HelloTomisin](https://us-central1-hello-gcp-308315.cloudfunctions.net/HelloTomisin)
 - [HelloHelen](https://us-central1-hello-gcp-308315.cloudfunctions.net/HelloHelen)
 - [HelloGbenga](https://us-central1-hello-gcp-308315.cloudfunctions.net/HelloGbenga)
+- [HelloNaheemah](https://us-central1-hello-gcp-308315.cloudfunctions.net/HelloNaheemah)
