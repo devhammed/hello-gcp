@@ -1,4 +1,4 @@
-package devhammedHelloGCP
+package devhammedGithubIoHelloGCP
 
 import (
 	"fmt"
