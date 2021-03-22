@@ -1,0 +1,55 @@
+steps:
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    args:
+      - gcloud
+      - functions
+      - deploy
+      - HelloAzeezat
+      - --source=.
+      - --trigger-http
+      - --runtime go113
+      - --allow-unauthenticated
+
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    args:
+      - gcloud
+      - functions
+      - deploy
+      - HelloTomisin
+      - --source=.
+      - --trigger-http
+      - --runtime go113
+      - --allow-unauthenticated
+
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    args:
+      - gcloud
+      - functions
+      - deploy
+      - HelloHelen
+      - --source=.
+      - --trigger-http
+      - --runtime go113
+      - --allow-unauthenticated
+
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    args:
+      - gcloud
+      - functions
+      - deploy
+      - HelloGbenga
+      - --source=.
+      - --trigger-http
+      - --runtime go113
+      - --allow-unauthenticated
+
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    args:
+      - gcloud
+      - functions
+      - deploy
+      - HelloNaheemah
+      - --source=.
+      - --trigger-http
+      - --runtime go113
+      - --allow-unauthenticated
