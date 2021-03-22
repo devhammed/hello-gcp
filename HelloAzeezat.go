@@ -1,12 +1,11 @@
-package helloGCP
+package devhammedHelloGCP
 
 import (
-        "fmt"
-        "net/http"
+	"fmt"
+	"net/http"
 )
 
 // HelloAzeezat is an HTTP Cloud Function to greet Azeezat.
-func HelloAzeezat(w http.ResponseWriter, r *http.Request) {  
-        fmt.Fprintf(w, "Hello, Azeezat. My very own sweetheart!")
+func HelloAzeezat(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Hello, Azeezat. My very own sweetheart!")
 }
-

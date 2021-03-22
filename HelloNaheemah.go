@@ -1,4 +1,4 @@
-package helloGCP
+package devhammedHelloGCP
 
 import (
 	"fmt"
